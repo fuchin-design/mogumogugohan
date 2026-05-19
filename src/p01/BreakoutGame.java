@@ -109,7 +109,7 @@ public class BreakoutGame extends JPanel implements ActionListener {
 
 		if (blocks.isEmpty()) {
 	            timer.stop();
-	            JOptionPane.showMessageDialog(this, "Game Clear!");
+	           JOptionPane.showMessageDialog(this, "Game Clear!");
 		}
 		repaint();
 	}
