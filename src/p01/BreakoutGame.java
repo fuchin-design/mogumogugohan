@@ -40,7 +40,7 @@ public class BreakoutGame extends JPanel implements ActionListener {
 		addKeyListener(new PaddleMover());
 
 		initGame();
-		timer = new Timer(10, this);
+		timer = new Timer(5, this);
 		timer.start();
 	}
 
