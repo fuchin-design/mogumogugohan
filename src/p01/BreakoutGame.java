@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
@@ -107,9 +108,9 @@ public class BreakoutGame extends JPanel implements ActionListener {
 		blocks.removeAll(blocksToRemove);
 
 		if (blocks.isEmpty()) {
-			initGame();
+	            timer.stop();
+	            JOptionPane.showMessageDialog(this, "Game Clear!");
 		}
-
 		repaint();
 	}
 
