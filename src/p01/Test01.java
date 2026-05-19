@@ -7,7 +7,9 @@ public class Test01 {
 		System.out.println("changeSystem");
 
 		System.out.println("わー");
-
+		for(String asagohan :asagohans) {
+			System.out.println(asagohan);
+		}
 	}
 
 }
